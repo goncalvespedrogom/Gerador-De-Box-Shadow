@@ -242,6 +242,10 @@ h3{
         margin-bottom: 1.5rem;
     }
 
+    .container-img img{
+        width: 300px;
+    }
+
     h2{
         font-size: 17px;
     }
@@ -268,5 +272,11 @@ h3{
 
     h3{
         font-size: 17px;
+    }
+}
+
+@media(max-width: 340px){
+    .container-img img{
+        width: 200px;
     }
 }
