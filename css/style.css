@@ -98,6 +98,17 @@ h3{
     box-shadow: rgb(0, 0, 0) 2px 2px 85px -6px;
 }
 
+.range-input input[type="color"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20%;
+    height: 30px;
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 .reference-input{
     display: flex;
     padding-top: 36px;
